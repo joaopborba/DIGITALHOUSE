@@ -15,8 +15,20 @@ h1{
     color: #EC183F;
 }
 
-.social{
-    width: 50px;
-    text-align: right;
+img {
+    width: 100%;
+}
+
+ul.social {
+    text-align: center;
+    list-style: none;
+}
+
+ul.social li {
     display: inline-block;
+}
+
+ul.social li a img {
+    width: 40px;
+    margin: 10px;
 }
